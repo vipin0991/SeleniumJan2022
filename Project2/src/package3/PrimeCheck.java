@@ -4,28 +4,29 @@ import java.util.Scanner;
 
 
 public class PrimeCheck {
-	
-	
 	public void prime(int x) {
 		
-		int y=0;
+		int j = 0;
 		
-		if(x>1) {
-			if(x%2==0) {
-				System.out.println("Number is not prime");
+		if(x==0 || x==1)
+			j=j+1;
+		
+		for(int i=2;i<=x/2;i++) {
+			if(x%i==0) {
+				j++;
+				break;
 			}
-			else
-				y++;
 		}
-		else if(y==0) {
-			System.out.println("Number is prime");
-		}
-		else
+		
+		if(j==0) 
+			System.out.println("****Prime****");
+	else
 			System.out.println("Not Prime");
+		
 	}
 	
 	public static void main(String[] args) {
-		
+			
 		Scanner s = new Scanner(System.in);
 		System.out.println("Please Enter number");
 		int x = s.nextInt();
