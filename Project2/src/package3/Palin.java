@@ -8,7 +8,8 @@ public class Palin {
 		
 		System.out.println("Enter the number");
 		int num = s.nextInt();
-		int rev = 0; int rem = 1;
+		int rev = 0, rem = 1, OriNum;
+		OriNum = num;
 		
 		while(num>0)
 		{
@@ -16,7 +17,11 @@ public class Palin {
 		rev = rev*10+rem; //0*10+8 = 8, 1*10+5 = 15
 		num = num/10; //485, 48	 
 		}		
-		System.out.println("Reversed No. is : "+rev);
+		
+		if(OriNum == rev)
+		System.out.println("**Number is Palidrome**");
+		else
+			System.out.println("**Number is not Palindrome");
 		
 		
 	}
