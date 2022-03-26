@@ -16,11 +16,23 @@ public class Filehandleassign2 {
 		
 		String s;
 		
-		  int i=1, j=0,k=1,m=0; for(k=1,j=1;k<=10;k++,j++) {
+		  int i=1, j=0,k=1,m=0; 
 		  
-		  if(k==x && y<9) { for(j=1;j<=y-m;j++) { System.out.println(b.readLine());
-		  i++; } } else { b.readLine(); m++; } if(i>1) { break; } } if(x==0 ||
-		  x>8||y<1||x>y||y>8) System.out.println("Invalid Row Numbers");
+		  for(k=1,j=1;k<=10;k++,j++) {
+		  
+			  if(k==x && y<9) { 
+				  for(j=1;j<=y-m;j++) { 
+					  System.out.println(b.readLine());
+					  i++; 
+					  }
+				  } 
+			  else { 
+				  b.readLine(); 
+				  m++; 
+				  } 
+		if(i>1) { break; } } 
+		  if(x==0 || x>8||y<1||x>y||y>8) 
+			  System.out.println("Invalid Row Numbers");
 		 
 		/*
 		 * for(int k=1;k<x;k++) { b.readLine(); } for(int m=x;m<=y;m++) {

@@ -11,7 +11,7 @@ public class FileHandleAssign1 {
 	
 	public void ReadData(int r) throws IOException {
 		//File f = new File("E:/LocalRepo/Project2/src/package3/Mac.txt");
-		File f = new File("../Project2/src/package3/dc/19thMarch2022.txt");
+		File f = new File("../Project2/src/package3/dc/19thMarch20022.txt");
 		FileReader fr = new FileReader(f);
 		BufferedReader b = new BufferedReader(fr);
 		
