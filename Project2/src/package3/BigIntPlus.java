@@ -9,7 +9,7 @@ public class BigIntPlus {
 		
 		BigInteger n1 = new BigInteger("1458752147893254015874102589630145870");
 		BigInteger n2 = new BigInteger("1458752147893254015874102589630145870");
-		//BigDecimal as well
+		//BigDecimal as well comment
 		
 		BigInteger n3 = n1.add(n2);
 		
