@@ -2,22 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50" started-at="2022-05-01T00:06:29 IST" finished-at="2022-05-01T00:06:29 IST">
+  <suite name="Default suite" duration-ms="54757" started-at="2022-05-28T13:11:07 IST" finished-at="2022-05-28T13:12:02 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="50" started-at="2022-05-01T00:06:29 IST" finished-at="2022-05-01T00:06:29 IST">
-      <class name="package3.TestNGClass2">
-        <test-method status="PASS" signature="m2()[pri:0, instance:package3.TestNGClass2@7d0587f1]" name="m2" duration-ms="1" started-at="2022-05-01T00:06:29 IST" finished-at="2022-05-01T00:06:29 IST">
+    <test name="Default test" duration-ms="54757" started-at="2022-05-28T13:11:07 IST" finished-at="2022-05-28T13:12:02 IST">
+      <class name="package3.dc.FacebookDataProviderAssign">
+        <test-method status="PASS" signature="testcase1(java.lang.String,java.lang.String)[pri:0, instance:package3.dc.FacebookDataProviderAssign@5ea434c8]" name="testcase1" duration-ms="26860" started-at="2022-05-28T13:11:07 IST" data-provider="dp2" finished-at="2022-05-28T13:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vipin_09dhiman@yahoo.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@Telecommunication457]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-      </class> <!-- package3.TestNGClass2 -->
-      <class name="package3.TestNGClass1">
-        <test-method status="PASS" signature="m1()[pri:0, instance:package3.TestNGClass1@1efed156]" name="m1" duration-ms="8" started-at="2022-05-01T00:06:29 IST" finished-at="2022-05-01T00:06:29 IST">
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase1(java.lang.String,java.lang.String)[pri:0, instance:package3.dc.FacebookDataProviderAssign@5ea434c8]" name="testcase1" duration-ms="27686" started-at="2022-05-28T13:11:34 IST" data-provider="dp2" finished-at="2022-05-28T13:12:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testingdata98720@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@Telecommunication456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-      </class> <!-- package3.TestNGClass1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testcase1 -->
+      </class> <!-- package3.dc.FacebookDataProviderAssign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
