@@ -32,8 +32,7 @@ public class FacebookDataProviderAssign {
 		driver.findElement(By.xpath("//input[@name='pass']")).sendKeys(pass);
 		driver.findElement(By.xpath("//button[@name='login']")).click();
 		
-		Thread.sleep(6000);
-		
+		Thread.sleep(6000);		
 		//Boolean res = driver.findElement(By.xpath("")).isDisplayed();
 		//boolean res= driver.findElement(By.xpath("//div[@aria-label='Your profile' and @role='button']")).isDisplayed();
 		String str = driver.getTitle();
